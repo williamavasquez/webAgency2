@@ -1,0 +1,347 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+@font-face {
+font-family: 'BebasNeue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('fonts/BebasNeue.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+  height: 102px;
+  background-color: black;
+}
+
+#headlogo {
+margin: 36px 0px 29px 113px;
+opacity: 0.7;
+}
+
+.nav-wrapper ul{
+  margin-top: 38px;
+  margin-right: 107px;
+}
+
+.nav-wrapper  ul a{
+opacity: 0.7;
+color: white;
+font-family: BebasNeue;
+font-size: 14px;
+}
+
+.nav-wrapper  li{
+  height: 50px;
+}
+
+.nav-wrapper  li:hover{
+    border-bottom-width: 33px;
+    border-bottom: solid;
+    border-bottom-color: #ab2222
+}
+#bg {
+    width: 100%;
+    height: 559px;
+    padding: 0;
+    margin: 0;
+}
+
+#testBG{
+  background: url('../img/bgimage1.jpg') no-repeat 50% 92%;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.carbtn {
+  height: 559px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightbtn img {
+  float: right;
+}
+
+.centerbox {
+  margin-top: 8%;
+  height: 100%;
+  align-items: center;
+  color:  #1ed2dd;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Montserrat;
+}
+
+#therealtest {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 100%;
+
+}
+
+h3 {
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+
+#contactmebtn {
+  clear: both;
+  background-color: #e55b44;
+  font-size: 14px;
+
+}
+.profiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profiles img{
+  margin: 20px 10px 0px 10px;
+  width: 25px;
+  height: 25px;
+}
+
+#skillimageMeteor{
+  height: 70px;
+}
+
+#skillimageRNative{
+  height: 60px;
+}
+
+#skills {
+  height: 647px;
+  background-color: #eee;
+  margin: 0px 0 80px 0 ;
+}
+
+#skillboxes{
+margin: 200px 0 0 0;
+}
+
+.titletext {
+  width: 168px;
+  height: 145px;
+  border: 6px solid black;
+  margin: 245px 0 0 0;
+}
+
+.titletext h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 51px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#topletters{
+  padding: 18px 0px 0px 18px;
+}
+
+#bottomletters {
+  padding-left: 52px;
+}
+
+.imageskill {
+  display: block;
+  margin: auto;
+}
+
+#projectsection {
+height: 842px;
+justify-content: center;
+align-items: center;
+vertical-align: middle;
+}
+
+#firstprojectrow img {
+  width: 100%;
+  height: 100%
+}
+#firstprojectrow a {
+  width: 100%;
+  height: 100%
+}
+
+#pc1 {
+  width: 100%;
+  height: 25%;
+  padding: 0;
+}
+
+#pc2 {
+  width: 40%;
+  height: 100%;
+  padding: 0;
+}
+
+
+#pc3 {
+  width: 20%;
+  height: 50%;
+  float: left;
+  border: 6px solid;
+
+}
+
+#pc3 h3 {
+      margin: 0;
+      padding-left: 20px;
+      font-family: Montserrat;
+      text-transform: uppercase;
+      display: inline-block;
+      line-height: 60px;
+      font-size: 50px;
+      font-weight: 700;
+}
+
+#pc4 {
+  width: 40%;
+  height: 50%;
+  float: right;
+  padding: 0;
+}
+
+#pc5 {
+  width: 60%;
+  height: 50%;
+  float:right;
+  padding: 0;
+}
+
+#firstprojectrow{
+  height: 600px;
+  }
+
+#aboutrow{
+height: 375px;
+background-color: #1ed2dd;
+margin: 0px;
+}
+
+#aboutcontainer{
+  background-color: purple;
+}
+
+#aboutcontainer img {
+opacity: 0.74;
+display: block;
+padding: 62px 0 0 169px;
+z-index: 1;
+position: absolute;
+}
+
+#aboutbox {
+  margin-top: 30px;
+}
+#aboutcontainer .titletext {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  z-index: 2;
+}
+
+.abouttext h2{
+  color: white;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 15px;
+
+}
+
+.abouttext p {
+color: white;
+font-family: Arial;
+font-size: 14px;
+line-height: 20px;
+  text-align: justify;
+}
+
+#contactrow img {
+display: block;
+z-index: 1 ;
+padding: 167px 0  0 0;
+opacity: 0.5;
+float: right;
+}
+
+#contactrow {
+  margin: 0px;
+  padding: 0px;
+  height: 594px;
+  background-color: white;
+  overflow: hidden;
+}
+
+#contactcontainer .titletext {
+  margin: 0px;
+  padding: 0px;
+  width: 231px;
+  z-index: 2;
+}
+
+.contactrinput {
+  margin: 0;
+  padding: 0;
+}
+
+#contactbox{
+  margin: 124px;
+}
+
+#contactrow form input {
+  width: 180px;
+  height: 24px;
+  background-color: black;
+  margin: 0;
+  padding: 0 0 0 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#contactrow form textarea {
+  /* Style for "Rectángulo 7 c" */
+  width: 290px;
+  height: 75px;
+  background-color: black;
+  margin: 0;
+  padding: 0 0 0 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+footer.page-footer {
+  background-color: black;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+}
